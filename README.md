@@ -17,3 +17,12 @@ A Java-based server for managing file storage operations. This server allows you
 
 ### Prerequisites
 - Java 23 or later
+
+
+
+### HTTP Method	Endpoint	        Description
+POST	        /files	            Upload a file
+GET	            /files	            Retrieve all files
+GET	            /files/{id}	        Retrieve a specific file
+Get             /file/read/{id}     View file in the browser
+DELETE	        /files/{id}	        Delete a specific file
