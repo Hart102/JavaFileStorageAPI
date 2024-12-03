@@ -20,7 +20,7 @@ A Java-based server for managing file storage operations. This server allows you
 
 
 
-### HTTP Method	Endpoint	        Description
+### Endpoint Description
 - POST	        /files	            Upload a file
 - GET	            /files	            Retrieve all files
 - GET	            /files/{id}	        Retrieve a specific file
